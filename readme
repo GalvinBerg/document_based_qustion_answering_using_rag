@@ -1,0 +1,32 @@
+:
+
+📘 Document Question Answering System using RAG
+
+This project implements a Document-based Question Answering (QA) System using Retrieval-Augmented Generation (RAG).
+It allows users to upload documents (PDFs), index them into a vector database, and then ask natural language questions. The system retrieves the most relevant chunks and generates precise, context-aware answers.
+
+🔧 Features
+
+📄 Upload and process PDF documents.
+
+✂️ Split documents into chunks for better retrieval.
+
+🔍 Store embeddings in a FAISS vector database.
+
+🧠 Use HuggingFace embeddings for semantic search.
+
+🤖 Retrieve relevant context and generate answers via LLM (RAG pipeline).
+
+🌐 FastAPI backend for seamless API access.
+
+🛠️ Tech Stack
+
+Backend Framework: FastAPI
+
+Language Models: HuggingFace / OpenAI / Ollama (configurable)
+
+Vector Store: FAISS
+
+Embeddings: HuggingFace Transformers
+
+Document Processing: LangChain (text splitting & ingestion)
