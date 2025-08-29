@@ -11,7 +11,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 app = FastAPI()
 
-file_path = r"/Users/manimarans/Documents/galvin/DOC-20240322-WA0000.pdf"
+file_path = r"file path"
 
 @app.post(file_path)
 def upload_pdf():
